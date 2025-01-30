@@ -1,7 +1,7 @@
 # MCW_Task-03
-##Matrix Transpose (256)
+## Matrix Transpose (256)
 
-###Steps to Perform the task:
+### Steps to Perform the task:
 
 > Create a matrixTranspose.cpp file to perform matrix transpose in c++.
 
