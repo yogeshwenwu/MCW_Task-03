@@ -1,0 +1,10 @@
+^E:\MCW_C++_LEARNING\MCW_TASK-03\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/MCW_C++_Learning/MCW_Task-03 -BE:/MCW_C++_Learning/MCW_Task-03/build --check-stamp-file E:/MCW_C++_Learning/MCW_Task-03/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

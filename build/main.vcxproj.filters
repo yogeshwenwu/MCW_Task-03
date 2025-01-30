@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\MCW_C++_Learning\MCW_Task-03\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\MCW_C++_Learning\MCW_Task-03\matrixTranspose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\MCW_C++_Learning\MCW_Task-03\matrixTransposeAvx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\MCW_C++_Learning\MCW_Task-03\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4E37B30B-530D-3B87-95EC-B3AB000145FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
